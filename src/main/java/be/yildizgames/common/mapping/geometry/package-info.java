@@ -22,17 +22,8 @@
  *
  */
 
-package be.yildizgames.common.mapping;
-
-
-import be.yildizgames.common.geometry.Point3D;
-
 /**
+ * This package contains the mappers for the geometry classes.
  * @author Grégory Van den Borre
  */
-public class Point3DMapperTest extends BaseMapperTest<Point3D> {
-
-    public Point3DMapperTest() {
-        super(Point3DMapper.getInstance(), Point3D.valueOf(1,2,3));
-    }
-}
+package be.yildizgames.common.mapping.geometry;

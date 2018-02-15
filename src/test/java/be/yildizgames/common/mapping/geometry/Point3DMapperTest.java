@@ -22,47 +22,17 @@
  *
  */
 
-package be.yildizgames.common.mapping;
+package be.yildizgames.common.mapping.geometry;
+
 
 import be.yildizgames.common.geometry.Point3D;
-
-import java.security.InvalidParameterException;
 
 /**
  * @author Grégory Van den Borre
  */
-public class Point3DMapper implements ObjectMapper<Point3D> {
+public class Point3DMapperTest extends BaseMapperTest<Point3D> {
 
-    //FIXME use float mapper
-
-    private static final Point3DMapper INSTANCE = new Point3DMapper();
-
-    private Point3DMapper() {
-        super();
-    }
-
-    public static Point3DMapper getInstance() {
-        return INSTANCE;
-    }
-
-    @Override
-    public Point3D from(String s) throws MappingException {
-        assert s != null;
-        String[] v = s.split(Separator.VAR_SEPARATOR);
-        try {
-            return Point3D.valueOf(Float.valueOf(v[0]), Float.valueOf(v[1]), Float.valueOf(v[2]));
-        } catch (final InvalidParameterException | IndexOutOfBoundsException | NumberFormatException e) {
-            throw new MappingException(e);
-        }
-    }
-
-    @Override
-    public String to(Point3D p) {
-        assert p != null;
-        return String.valueOf(p.x) +
-                Separator.VAR_SEPARATOR +
-                String.valueOf(p.y) +
-                Separator.VAR_SEPARATOR +
-                String.valueOf(p.z);
+    public Point3DMapperTest() {
+        super(Point3DMapper.getInstance(), Point3D.valueOf(1,2,3));
     }
 }
