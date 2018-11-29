@@ -24,9 +24,9 @@
 
 package be.yildizgames.common.mapping.geometry;
 
-import be.yildizgames.common.mapping.MappingException;
 import be.yildizgames.common.mapping.ObjectMapper;
 import be.yildizgames.common.mapping.Separator;
+import be.yildizgames.common.mapping.exception.MappingException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

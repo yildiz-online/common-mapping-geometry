@@ -26,9 +26,9 @@ package be.yildizgames.common.mapping.geometry;
 
 import be.yildizgames.common.geometry.Point3D;
 import be.yildizgames.common.mapping.FloatMapper;
-import be.yildizgames.common.mapping.MappingException;
 import be.yildizgames.common.mapping.ObjectMapper;
 import be.yildizgames.common.mapping.Separator;
+import be.yildizgames.common.mapping.exception.MappingException;
 
 import java.security.InvalidParameterException;
 
