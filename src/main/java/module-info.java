@@ -22,6 +22,9 @@
  *
  */
 
+/**
+ * @author Grégory Van den Borre
+ */
 module be.yildizgames.common.mapping.geometry {
 
     requires be.yildizgames.common.geometry;

@@ -37,6 +37,7 @@ import org.junit.jupiter.api.Test;
 public abstract class BaseMapperTest<T>{
 
     private final ObjectMapper<T> mapper;
+
     private final T baseObject;
 
     protected BaseMapperTest(ObjectMapper<T> mapper, T baseObject) {

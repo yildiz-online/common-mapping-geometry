@@ -71,3 +71,4 @@ public class Point3DMapper implements ObjectMapper<Point3D> {
                 FloatMapper.getInstance().to(p.z);
     }
 }
+
