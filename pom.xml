@@ -32,7 +32,7 @@
   <url>https://bitbucket.org/yildiz-engine-team/common-mapping</url>
 
   <artifactId>common-mapping-geometry</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
 
   <packaging>jar</packaging>
   <inceptionYear>2017</inceptionYear>
