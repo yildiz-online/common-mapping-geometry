@@ -70,5 +70,6 @@ public class Point3DMapper implements ObjectMapper<Point3D> {
                 Separator.VAR_SEPARATOR +
                 FloatMapper.getInstance().to(p.z);
     }
+
 }
 
