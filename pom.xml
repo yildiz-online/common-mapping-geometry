@@ -29,7 +29,7 @@
   <modelVersion>4.0.0</modelVersion>
   <name>Yildiz Common Mapping Geometry</name>
   <description>Common Mapping Geometry library for the yildiz project, contains utilities to map geometry classes.</description>
-  <url>https://bitbucket.org/yildiz-engine-team/common-mapping</url>
+  <url>https://engine.yildiz-games.be</url>
 
   <artifactId>common-mapping-geometry</artifactId>
   <version>1.0.3-SNAPSHOT</version>
@@ -37,9 +37,9 @@
   <packaging>jar</packaging>
   <inceptionYear>2017</inceptionYear>
   <scm>
-    <connection>scm:git:https://bitbucket.org/yildiz-engine-team/common-mapping-geometry</connection>
-    <developerConnection>scm:git:https://bitbucket.org/yildiz-engine-team/common-mapping-geometry</developerConnection>
-    <url>https://bitbucket.org/yildiz-engine-team/common-mapping-geometry</url>
+    <connection>scm:git:https://github.com/yildiz-online/common-mapping-geometry</connection>
+    <developerConnection>scm:git:https://github.com/yildiz-online/common-mapping-geometry</developerConnection>
+    <url>https://github.com/yildiz-online/common-mapping-geometry</url>
   </scm>
   <parent>
     <artifactId>parent</artifactId>
